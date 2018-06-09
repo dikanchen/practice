@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  Practice
 //
 //  Created by Dikan Chen on 6/9/18.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface TableViewController : UIViewController
 
-@property(weak, nonatomic) NSString* tag;
+@property (strong, nonatomic) NSString* store;
+
 @end
-

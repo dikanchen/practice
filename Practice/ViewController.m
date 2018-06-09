@@ -8,11 +8,16 @@
 
 #import "ViewController.h"
 
+#import "TableViewController.h"
+
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
 
 @implementation ViewController
+
+@synthesize tag;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -25,5 +30,17 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)searchTapped:(id)sender {
+    tag = self.textField.text;
+    [self performSegueWithIdentifier:@"segue" sender:self];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if([segue.identifier isEqualToString:@"segue"]){
+        TableViewController *vc = [segue destinationViewController];
+        vc.store = tag;
+    }
+}
 
 @end

@@ -15,6 +15,10 @@
 		12CC3A9720CC512700C6C4C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CC3A9620CC512700C6C4C4 /* main.m */; };
 		12CC3AA120CC512700C6C4C4 /* PracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CC3AA020CC512700C6C4C4 /* PracticeTests.m */; };
 		12CC3AAC20CC512700C6C4C4 /* PracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CC3AAB20CC512700C6C4C4 /* PracticeUITests.m */; };
+		12CC3ABE20CC575F00C6C4C4 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CC3ABD20CC575F00C6C4C4 /* TableViewController.m */; };
+		12CC3AC220CC643300C6C4C4 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CC3AC120CC643300C6C4C4 /* TableViewCell.m */; };
+		12CC3AC520CC77AF00C6C4C4 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CC3AC420CC77AF00C6C4C4 /* Course.m */; };
+		12CC3AC820CC7EC900C6C4C4 /* images.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CC3AC720CC7EC900C6C4C4 /* images.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		12CC3AA720CC512700C6C4C4 /* PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12CC3AAB20CC512700C6C4C4 /* PracticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticeUITests.m; sourceTree = "<group>"; };
 		12CC3AAD20CC512700C6C4C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12CC3ABC20CC575F00C6C4C4 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		12CC3ABD20CC575F00C6C4C4 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		12CC3AC020CC643300C6C4C4 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		12CC3AC120CC643300C6C4C4 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		12CC3AC320CC77AF00C6C4C4 /* Course.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		12CC3AC420CC77AF00C6C4C4 /* Course.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
+		12CC3AC620CC7EC900C6C4C4 /* images.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = images.h; sourceTree = "<group>"; };
+		12CC3AC720CC7EC900C6C4C4 /* images.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = images.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,14 @@
 				12CC3A9220CC512700C6C4C4 /* LaunchScreen.storyboard */,
 				12CC3A9520CC512700C6C4C4 /* Info.plist */,
 				12CC3A9620CC512700C6C4C4 /* main.m */,
+				12CC3ABC20CC575F00C6C4C4 /* TableViewController.h */,
+				12CC3ABD20CC575F00C6C4C4 /* TableViewController.m */,
+				12CC3AC020CC643300C6C4C4 /* TableViewCell.h */,
+				12CC3AC120CC643300C6C4C4 /* TableViewCell.m */,
+				12CC3AC320CC77AF00C6C4C4 /* Course.h */,
+				12CC3AC420CC77AF00C6C4C4 /* Course.m */,
+				12CC3AC620CC7EC900C6C4C4 /* images.h */,
+				12CC3AC720CC7EC900C6C4C4 /* images.m */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
@@ -262,9 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12CC3AC820CC7EC900C6C4C4 /* images.m in Sources */,
 				12CC3A8C20CC512600C6C4C4 /* ViewController.m in Sources */,
 				12CC3A9720CC512700C6C4C4 /* main.m in Sources */,
 				12CC3A8920CC512600C6C4C4 /* AppDelegate.m in Sources */,
+				12CC3AC220CC643300C6C4C4 /* TableViewCell.m in Sources */,
+				12CC3AC520CC77AF00C6C4C4 /* Course.m in Sources */,
+				12CC3ABE20CC575F00C6C4C4 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
